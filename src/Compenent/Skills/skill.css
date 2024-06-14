@@ -1,0 +1,53 @@
+#skills {
+    margin: auto;
+    margin-bottom: 50px;
+    width: 40%;
+    height: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.Shead{
+    margin-top: 35px;
+    font-size: 20px;
+    color: #0009;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+    background-color: aliceblue;
+}
+
+.box img {
+    height: 75px;
+}
+
+
+@media screen and (max-width:768px) {
+    
+    #skills{
+        width: 100%;
+        gap: 10px;
+    }
+
+    .box{
+        
+        width: 100px;
+        height: 100px;
+        flex-wrap: wrap;
+    }
+    
+}
