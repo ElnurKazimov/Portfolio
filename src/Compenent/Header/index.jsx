@@ -23,9 +23,10 @@ const header = () => {
             <li><a href="#projects">My Works</a></li>
             <li><a href="#skills">Skills</a></li>
           </ul>
+         
         </div>
-
-         <button className='menuBtn' onClick={showMenu}><i className="fa-solid fa-bars"></i></button>
+        <i className="fa-solid fa-bars menuBtn " onClick={showMenu}></i>
+         
        
       </div>
     </>
