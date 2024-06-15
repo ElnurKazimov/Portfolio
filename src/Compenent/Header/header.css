@@ -7,12 +7,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position:fixed;
     height: 75px;
-    width: 100%;
-    background-color: #FFFFFF;
+    width: 100vw;
+    background-color: red;
     box-shadow: 1px 0 5px;
- 
+    z-index: 1000;
+
 }
 
 
@@ -80,30 +81,31 @@
 .menuBtn {
     width: 25px;
     height: 25px;
-    background-color: #616161;
+    color: #616161;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    transform: translateX(-70px);
     cursor: pointer;
     display: none;
 }
 
-.menuBtn i {
-    font-size: 22px;
-    color: #FFFFFF;
-}
 
 
 @media screen and (max-width:768px) {
+   
     .links {
         position: absolute;
         top: 75px;
-        width: 400px;
+        width: 100vw;
         height: 300px;
         background-color: #FFFFFF;
-        transform: translateY(-200%);
+        transform: translateX(800%);
         transition: 0.5s ease-in-out;
     }
 
     .active {
-        transform: translateY(0);
+        transform: translateX(0);
     }
 
 
@@ -123,12 +125,6 @@
 
 
     .menuBtn {
-        width: 30px;
-        height: 30px;
-        text-align: center;
-        color: #FFFFFF;
-        padding-top: 5px;
-        transform: translateX(-300px);
         display: inline-block;
 
     }

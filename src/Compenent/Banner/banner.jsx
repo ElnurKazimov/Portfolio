@@ -2,28 +2,25 @@ import React from 'react'
 import './banner.css'
 import Banner from '../../images/banner.png'
 
-const index = () => {
+const banner = () => {
   return (
-    <>
-      <div className="container">
+   <div>
+      <div className="banneSection">
+        
         <div className="bannerContent">
           <h1 className='name'>ELNUR KAZIMOV</h1>
           <h3>Front-End Developer</h3>
           <p>As a Front-End Developer, I create interactive, user-friendly, and visually appealing web experiences using modern technologies</p>
-         
-          
-          <a href='https://wa.me/+994705820708' target='_blank'>
-          <button className="actionBtn" >Contact Me</button>
+          <a href="mailto:ekazimov009@gmail.com" target='_blank' className="actionBtn">
+          Contact Me
         </a>
-         
-
         </div>
 
         <img src={Banner} alt="" />
       </div>
-
-    </>
+      </div>
+      
   )
 }
 
-export default index
+export default banner

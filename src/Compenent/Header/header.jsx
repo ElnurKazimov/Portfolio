@@ -1,5 +1,6 @@
 import React from 'react';
 import './header.css';
+
 import Logo from '../../images/logo.png'
 
 const showMenu = () =>{
@@ -9,8 +10,6 @@ const showMenu = () =>{
 const header = () => {
   return (
     <>
-
-
       <div className='navbar'>
 
         <div className='title'>
@@ -29,7 +28,8 @@ const header = () => {
          
        
       </div>
-    </>
+      </>
+    
   )
 }
 
