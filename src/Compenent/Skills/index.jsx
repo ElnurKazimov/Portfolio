@@ -9,19 +9,19 @@ import Git from '../../images/git.png'
 
 
 
-
 const index = () => {
     return (
         <>
             <h1 className='heading'>My Top Skills</h1>
-            <div id='skills'>
-                <div className="box"><img src={Html} alt="" /></div>
+            <div  id="skills">
+                <div className="box" ><img src={Html} alt="" /></div>
                 <div className="box"><img src={Css} alt="" /></div>
                 <div className="box"><img src={Js} alt="" /></div>
                 <div className="box"><img src={Bootstrap} alt="" /></div>
                 <div className="box"><img src={react} alt="" /></div>
                 <div className="box"><img src={Git} alt="" /></div>
             </div>
+            
         </>
     )
 }

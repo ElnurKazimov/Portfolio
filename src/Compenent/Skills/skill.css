@@ -8,17 +8,10 @@
     align-items: center;
     justify-content: center;
     gap: 25px;
+   
+    
 }
 
-.Shead{
-    margin-top: 35px;
-    font-size: 20px;
-    color: #0009;
-    font-weight: bold;
-    font-family: "Poppins", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
 
 .box {
     display: flex;
@@ -27,13 +20,49 @@
     width: 140px;
     height: 140px;
     border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+    cursor: pointer;
     background-color: aliceblue;
-}
+    transition: 0.5s ease;
+
+     &:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+     }
+
+    }
+
 
 .box img {
     height: 75px;
+   
 }
+
+.htmlInfo{
+    margin: auto;
+    width: 40%;
+    height: 360px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #E44C25;
+    display: none;
+}
+
+.htmlInfo i{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
 
 
 @media screen and (max-width:768px) {
@@ -50,4 +79,12 @@
         flex-wrap: wrap;
     }
     
+    .htmlInfo{
+        width: 80%;
+        margin-bottom: 5px;
+    }
+  
+   
+
+
 }
